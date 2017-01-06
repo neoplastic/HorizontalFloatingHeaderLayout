@@ -108,7 +108,7 @@ Returns points spacing between columns. Optional implementation. Default value i
 ##Requirements
 
 - iOS 8.3
-- Xcode 7.1 or later (Uses Swift 2.1 syntax)
+- Xcode 8.0 or later (Uses Swift 3.0 syntax)
 
 ## Author
 

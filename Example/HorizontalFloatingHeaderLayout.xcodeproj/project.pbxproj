@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		08EEA91A1C35DD9500130ECC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EEA9191C35DD9500130ECC /* CollectionViewController.swift */; };
 		08EEA91F1C35DE4400130ECC /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EEA91E1C35DE4400130ECC /* HeaderView.xib */; };
-		35B6BD09B5F4EFAB084E30B7 /* Pods_HorizontalFloatingHeaderLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64B638E7142D74A9C30C0D9 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AFAA3F7C38EA046FCBFFB7B8 /* Pods_HorizontalFloatingHeaderLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447A70719E9CF0645CC2D45C /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */; };
+		80349E206CC1D3601E27806D /* Pods_HorizontalFloatingHeaderLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B817E30F1F6A8D20B27558C7 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */; };
+		B8671AB2C0BDCFC9F9FB7F4A /* Pods_HorizontalFloatingHeaderLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AD16F75C23EB91E2B1E95D /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +31,9 @@
 /* Begin PBXFileReference section */
 		0015CC8F39C984ECCE3B006C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		00F184C34B58141C9D600309 /* HorizontalFloatingHeaderLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HorizontalFloatingHeaderLayout.podspec; path = ../HorizontalFloatingHeaderLayout.podspec; sourceTree = "<group>"; };
+		04850E9E8147D99D7F49CB94 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		08EEA9191C35DD9500130ECC /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		08EEA91E1C35DE4400130ECC /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
-		412C2F88DECB4D9C931B2303 /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		447A70719E9CF0645CC2D45C /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58449959429EE3539208DF6B /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HorizontalFloatingHeaderLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalFloatingHeaderLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,9 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6690BC4AC4CDEA19DC19FDAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		67F9EB524DB6328929E96233 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C64B638E7142D74A9C30C0D9 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3C97DD00B43E0D478EC7B61 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71F5499BC314D59D00A5213F /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		83057438AE0ACEED731A22EC /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B817E30F1F6A8D20B27558C7 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AD16F75C23EB91E2B1E95D /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalFloatingHeaderLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB9A450F1C084762DDD7208 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B6BD09B5F4EFAB084E30B7 /* Pods_HorizontalFloatingHeaderLayout_Example.framework in Frameworks */,
+				80349E206CC1D3601E27806D /* Pods_HorizontalFloatingHeaderLayout_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAA3F7C38EA046FCBFFB7B8 /* Pods_HorizontalFloatingHeaderLayout_Tests.framework in Frameworks */,
+				B8671AB2C0BDCFC9F9FB7F4A /* Pods_HorizontalFloatingHeaderLayout_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +88,17 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
+		4C880E3F427BFF3F32497B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F5499BC314D59D00A5213F /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */,
+				04850E9E8147D99D7F49CB94 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */,
+				FEB9A450F1C084762DDD7208 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */,
+				83057438AE0ACEED731A22EC /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +106,8 @@
 				607FACD21AFB9204008FA782 /* Example for HorizontalFloatingHeaderLayout */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				E5731A5EC5A6CB183F10B158 /* Pods */,
-				9BB8A5A1AE9339A80C83CA81 /* Frameworks */,
+				4C880E3F427BFF3F32497B05 /* Pods */,
+				E8DEDC9FE9DDD7610871E089 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,24 +169,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9BB8A5A1AE9339A80C83CA81 /* Frameworks */ = {
+		E8DEDC9FE9DDD7610871E089 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C64B638E7142D74A9C30C0D9 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */,
-				447A70719E9CF0645CC2D45C /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */,
+				B817E30F1F6A8D20B27558C7 /* Pods_HorizontalFloatingHeaderLayout_Example.framework */,
+				E3AD16F75C23EB91E2B1E95D /* Pods_HorizontalFloatingHeaderLayout_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E5731A5EC5A6CB183F10B158 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				58449959429EE3539208DF6B /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */,
-				67F9EB524DB6328929E96233 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */,
-				E3C97DD00B43E0D478EC7B61 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */,
-				412C2F88DECB4D9C931B2303 /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,12 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout_Example" */;
 			buildPhases = (
-				916FF7C40CBF5A98233F4D02 /* Check Pods Manifest.lock */,
+				B7D35C5033E8958D59AA2D5D /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				385A5AD99A211069BB4FCC84 /* Embed Pods Frameworks */,
-				C550124402DAF4303632D5C7 /* Copy Pods Resources */,
+				33F74B803E4410957FFFC40F /* [CP] Embed Pods Frameworks */,
+				F780F616D99EB5B569BD3EE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,12 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HorizontalFloatingHeaderLayout_Tests" */;
 			buildPhases = (
-				A85D4A5F675F0F38076CF599 /* Check Pods Manifest.lock */,
+				9E1A17A866F3AD2089F61B60 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				5AD3E1255AB4E5156B299444 /* Embed Pods Frameworks */,
-				C64A0CDF0C270EE9FD789928 /* Copy Pods Resources */,
+				F0FC25A09436262D36629703 /* [CP] Embed Pods Frameworks */,
+				F0FAA06D35152B5F102DE25C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +234,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = U3DJQK3H6X;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -282,14 +285,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		385A5AD99A211069BB4FCC84 /* Embed Pods Frameworks */ = {
+		33F74B803E4410957FFFC40F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +300,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5AD3E1255AB4E5156B299444 /* Embed Pods Frameworks */ = {
+		9E1A17A866F3AD2089F61B60 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D35C5033E8958D59AA2D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FAA06D35152B5F102DE25C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FC25A09436262D36629703 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,64 +360,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		916FF7C40CBF5A98233F4D02 /* Check Pods Manifest.lock */ = {
+		F780F616D99EB5B569BD3EE8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A85D4A5F675F0F38076CF599 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C550124402DAF4303632D5C7 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Example/Pods-HorizontalFloatingHeaderLayout_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C64A0CDF0C270EE9FD789928 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HorizontalFloatingHeaderLayout_Tests/Pods-HorizontalFloatingHeaderLayout_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -505,33 +508,37 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58449959429EE3539208DF6B /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */;
+			baseConfigurationReference = 71F5499BC314D59D00A5213F /* Pods-HorizontalFloatingHeaderLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = U3DJQK3H6X;
 				INFOPLIST_FILE = HorizontalFloatingHeaderLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F9EB524DB6328929E96233 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */;
+			baseConfigurationReference = 04850E9E8147D99D7F49CB94 /* Pods-HorizontalFloatingHeaderLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = U3DJQK3H6X;
 				INFOPLIST_FILE = HorizontalFloatingHeaderLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C97DD00B43E0D478EC7B61 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */;
+			baseConfigurationReference = FEB9A450F1C084762DDD7208 /* Pods-HorizontalFloatingHeaderLayout_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -545,13 +552,14 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizontalFloatingHeaderLayout_Example.app/HorizontalFloatingHeaderLayout_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 412C2F88DECB4D9C931B2303 /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */;
+			baseConfigurationReference = 83057438AE0ACEED731A22EC /* Pods-HorizontalFloatingHeaderLayout_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -561,6 +569,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizontalFloatingHeaderLayout_Example.app/HorizontalFloatingHeaderLayout_Example";
 			};
 			name = Release;

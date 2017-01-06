@@ -1,14 +1,16 @@
 PODS:
-  - HorizontalFloatingHeaderLayout (0.1.0)
+  - HorizontalFloatingHeaderLayout (1.0.0)
 
 DEPENDENCIES:
   - HorizontalFloatingHeaderLayout (from `../`)
 
 EXTERNAL SOURCES:
   HorizontalFloatingHeaderLayout:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  HorizontalFloatingHeaderLayout: 5ec106b363a8badb0188d888714c62c944804e09
+  HorizontalFloatingHeaderLayout: b94c61cfb2ea7803db130603303e8bfcabd50091
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 797f7bece8e4f56066b2a5475d91d9edd3070670
+
+COCOAPODS: 1.2.0.beta.3
